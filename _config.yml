@@ -21,10 +21,23 @@ github_username:  michali
 
 permalink: /:year/:month/:day/:title/
 gems:
- - jekyll-paginate
- - jekyll-gist
- - jemoji
+- jekyll-paginate
+- jekyll-gist
+- jemoji
+- jekyll-archives
+ 
+timezone: 'Europe/London'
 
+jekyll-archives:
+ enabled: 'all'
+ layout: 'archive'
+ permalinks:
+   year: '/:year/'
+   month: '/:year/:month/'
+   day: '/:year/:month/:day/'
+   tag: '/tag/:name/'
+   category: '/category/:name/'
+  
 # Build settings
 paginate: 5
 paginate_path: "page:num"

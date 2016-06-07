@@ -30,11 +30,11 @@
     {% assign category_list = site.categories %}  
       {% if category_list.first[0] == null %}
         {% for cat in category_list %} 
-          <li><a class="post-link" href="{{ site.baseurl }}/categories/{{ cat | replace: ' ','-' }}">{{ cat | capitalize }} <span>({{ site.categories[cat].size }})</span></a></li>
+          <li><a class="post-link" href="{{ site.baseurl }}/category/{{ cat | replace: ' ','-' }}">{{ cat | capitalize }} <span>({{ site.categories[cat].size }})</span></a></li>
         {% endfor %}
       {% else %}
         {% for cat in category_list %} 
-          <li><a class="post-link" href="{{ site.baseurl }}/categories/{{ cat[0] | replace: ' ','-' }}">{{ cat[0] | capitalize }} <span>({{ cat[1].size }})</span></a></li>
+          <li><a class="post-link" href="{{ site.baseurl }}/category/{{ cat[0] | replace: ' ','-' }}">{{ cat[0] | capitalize }} <span>({{ cat[1].size }})</span></a></li>
         {% endfor %}
       {% endif %}
     {% assign category_list = nil %}
