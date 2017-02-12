@@ -25,6 +25,7 @@ gems:
 - jekyll-gist
 - jemoji
 - jekyll-archives
+- jekyll-seo-tag
  
 timezone: 'Europe/London'
 
