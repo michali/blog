@@ -10,7 +10,7 @@ description: >
 email: michali@gmail.com
 author: Michali Konstantinidis
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: A software engineer based in london
+profile: A software engineer based in Sydney
 twitter_username: michalikon
 github_username:  michali
 
@@ -20,14 +20,14 @@ github_username:  michali
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 permalink: /:year/:month/:day/:title/
-gems:
+plugins:
 - jekyll-paginate
 - jekyll-gist
 - jemoji
 - jekyll-archives
 - jekyll-seo-tag
  
-timezone: 'Europe/London'
+timezone: 'Australia/Sydney'
 
 jekyll-archives:
  enabled: 'all'
