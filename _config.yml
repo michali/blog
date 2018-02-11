@@ -20,12 +20,11 @@ github_username:  michali
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 permalink: /:year/:month/:day/:title/
-plugins:
+plugins_dir:
 - jekyll-paginate
 - jekyll-gist
 - jemoji
 - jekyll-archives
-- jekyll-seo-tag
  
 timezone: 'Australia/Sydney'
 
@@ -40,6 +39,7 @@ jekyll-archives:
    category: '/category/:name/'
   
 # Build settings
+gems: [jekyll-paginate, jekyll-seo-tag]
 paginate: 5
 paginate_path: "page:num"
 

@@ -201,7 +201,8 @@ DEPENDENCIES
   concurrent-ruby
   github-pages
   jekyll-archives
+  jekyll-paginate
   jekyll-seo-tag
 
 BUNDLED WITH
-   1.12.3
+   1.16.1
