@@ -15,7 +15,7 @@ github_username:  michali
 
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 
-permalink: /:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 plugins_dir:
 - jekyll-paginate
 - jekyll-gist
@@ -28,16 +28,16 @@ jekyll-archives:
  enabled: 'all'
  layout: 'archive'
  permalinks:
-   year: '/:year/'
-   month: '/:year/:month/'
-   day: '/:year/:month/:day/'
-   tag: '/tag/:name/'
-   category: '/category/:name/'
+   year: '/blog/:year/'
+   month: '/blog/:year/:month/'
+   day: '/blog/:year/:month/:day/'
+   tag: '/blog/tag/:name/'
+   category: '/blog/category/:name/'
   
 # Build settings
 gems: [jekyll-paginate, jekyll-seo-tag]
 paginate: 5
-paginate_path: "page:num"
+paginate_path: "blog/page:num"
 
 highlighter: rouge
 markdown: kramdown
