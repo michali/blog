@@ -83,4 +83,4 @@ Then, on your site's navigation links you iterate through the `nav.yml` entries 
 
 This can be places next to the iterator that picks up your normal pages.
 
-Now your blog postURLs will be in a seperate sub-URL from your pages with a link to get to the post index.
+Now your blog post URLs will be in a seperate sub-URL from your pages with a link to get to the post index.
