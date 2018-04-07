@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "Jekyll blog posts in their own sub URL"
-date: 2018-3-13 00:00
+date: 2018-04-09 00:00
 categories:
 - Jekyll
+comments: true
 excerpt: When rolling out a new blog, you can put all blog posts under their own sub URL.
 ---
-As we know, by default, Jekyll creates a folder and URL structure for all blogs and pages on the site to exit alongside each other in a flat structure. So, the URL structure for this would be as follows:
+As those of us who use Jekyll know, by default ir creates a folder and URL structure for all blogs and pages on the site to exit alongside each other in a flat structure. So, the URL structure for this would be as follows:
 
 ```
 .
