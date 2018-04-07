@@ -13,7 +13,7 @@ profile: A software engineer based in Sydney
 twitter_username: michalikons
 github_username:  michali
 
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+disqus_shortname: michalikons   # get one: https://disqus.com/admin/signup/
 
 include: ["_pages"]
 
