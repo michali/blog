@@ -10,7 +10,7 @@ Like millions of other sites, this too uses Google Analytics to record visitor d
 
 What Google Analytics collects
 ===============================
-At its most basic google analytics will collect:
+At its most basic Google Analytics will collect:
 
 * Referring site details (what website you came here from).
 * Length of stay.
