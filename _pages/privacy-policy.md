@@ -15,7 +15,7 @@ At its most basic Google Analytics will collect:
 * Referring site details (what website you came here from).
 * Length of stay.
 * Type and version of operating system and browser.
-* Network location and IP address.
+* City and country of visit.
 * Date and time of visit.
 * Pages visited.
 * Flash version.
