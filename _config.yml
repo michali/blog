@@ -1,6 +1,6 @@
 # Site settings
 title: Michali K
-url: "http://www.michalikons.com"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "http://www.michalikons.com"
 baseurl: ""
 description: >
   Software Development
@@ -13,7 +13,7 @@ profile: A software engineer based in Sydney
 twitter_username: michalikons
 github_username:  michali
 
-disqus_shortname: michalikons   # get one: https://disqus.com/admin/signup/
+disqus_shortname: michalikons
 
 include: ["_pages"]
 
@@ -22,19 +22,8 @@ plugins_dir:
 - jekyll-paginate
 - jekyll-gist
 - jemoji
-- jekyll-archives
  
 timezone: 'Australia/Sydney'
-
-jekyll-archives:
- enabled: 'all'
- layout: 'archive'
- permalinks:
-   year: '/blog/:year/'
-   month: '/blog/:year/:month/'
-   day: '/blog/:year/:month/:day/'
-   tag: '/blog/tag/:name/'
-   category: '/blog/category/:name/'
   
 # Build settings
 gems: [jekyll-paginate, jekyll-seo-tag]
