@@ -178,7 +178,7 @@
 	font-size:$small-font-size;
 }
 
-@import "post", "home";
+@import "post", "home", "archive";
 
 @include media-query($on-laptop) {
 	.page-content {
