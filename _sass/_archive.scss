@@ -1,5 +1,15 @@
 .archive {
     .post-list {
         list-style-type: none;
+        padding: 0px;
+    }
+
+    .page-heading {
+        font-size:40px;
+        font-weight: normal;
+        @include media-query($on-palm) {
+            margin: 10px;
+            font-size: 34px;
+        }
     }
 }
