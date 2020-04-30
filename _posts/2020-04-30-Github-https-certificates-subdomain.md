@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github Pages  offers HTTPS for one custom domain. However you can point more than one domain to your pages (with caveats)."
-date:   2020-04-29 00:00
+date:   2020-04-30 00:00
 categories:
 - Github
 - HTTPS
@@ -16,9 +16,9 @@ This would work for most scenarios. However, because the certificates on Cloudfl
 
 Github support pages have detailed instructions on how to obtain a dedicated certificate but I'd like to bring up a particular case.
 
-Suppose you own a domain called example.com and a site on example.github.io and that you want to point both www.example.com and example.com to the Github pages site using HTTPS. If you hosted your site yourself and could manage your own certificates, you can have both example.com and www.example.com under a wildcard certificate with the apex example.com domain added as a Subject Alternative Name. Github Pages, however doesn't work that way. When you enable SSL on your site's settings for a custom domain, a certificate is generated only for that custom domain exactly as it's specified in the settings and it won't cover variations of that domain.
+Suppose you own a domain called example.com and a site on example.github.io and that you want to point both www.example.com and example.com to the Github pages site using HTTPS. If you hosted your site yourself and could manage your own certificates, you can have both example.com and www.example.com under a wildcard certificate with the apex example.com domain added as a Subject Alternative Name. Github Pages, however, doesn't work that way. When you enable SSL on your site's settings for a custom domain, a certificate is generated only for that custom domain exactly as it's specified in the settings and it won't cover variations of that domain.
 
-However, you can still have your connections to your apex domain redirect to a subdomain've specified in Github pages. To set up your site on your Github Pages repo on a subdomain, go your Github page repo's settings and add the fully qualified domain under "Custom Domain".
+However, you can still have your connections to your apex domain redirect to a subdomain specified in Github pages. To set up your site on your Github Pages repo on a subdomain, go your Github page repo's settings and add the fully qualified domain under "Custom Domain".
 
 Then go to your domain registrar's DNS management. You need a `CNAME` entry for the subdomain to point to your `[name].github.io` domain. Then for the apex domain, create four A records that point to the four IP addresses for Github pages:
 
