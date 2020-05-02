@@ -40,3 +40,5 @@ As mentioned, Github will generate a certificate only for the domain explicitly 
 [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) is not currently supported although Github is aware that there is a growing interest in it.
 
 I guess you can’t complain, really. It’s all free, after all, save the price of the domain.
+
+**Update**: Latest Chrome will, in fact, skip an unsecure connection to the unsecure `example.com` and will connect to the HTTPS `www.example.com` specified in the Github Pages project.
