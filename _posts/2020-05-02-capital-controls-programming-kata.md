@@ -13,7 +13,7 @@ excerpt: A code kata to explore adaptation in changing system requirements.
 
 In this article, I'll share an exercise that I've found inspiring. I'll call it the Capital Controls Kata.
 
-There won't be any code posted here right now but I will publish an attempt at solving the kata later. One of the things that makes the problem interesting, I think, is to define the problem domain.
+There won't be any code posted here right now but I will publish an attempt at solving the kata later. One of the things that makes the problem interesting, I think, is defining the problem domain.
 
 ## Problem Statement
 
@@ -24,9 +24,10 @@ As time passes, the dust begins to settle and sometimes the government announces
 The purpose of this exercise is to practice Test-Driven Development and clean code in a situation where requirements change often. What happens to your unit tests when you implement new requirements or change existing ones? How do you structure your production code?
 
 ## Requirements timeline 
+
 New measures are announced by the government as the situation changes in order to allow for more economic activity. Your team gets the requirements from your product manager, begins to work on the new features and the same are released on the date the government announces that the restrictions are being relaxed.
 
-The restrictions on capital will be relaxed five times overtime.There is no large backlog to work from, instead, the requirements are decided on by the government shortly before they arrive at the bank's technology team, so product owners and developers don't know what's around the corner while the current iteration is underway. I've put the requirements in expandable widgets. The idea of the exercise is to expand each iteration when you work on it.
+The restrictions on capital will be relaxed five times overtime.There is no large backlog to work from, instead, the requirements are decided on by the government shortly before they arrive at the bank's technology team, so product owners and developers don't know what's around the corner while the current iteration is underway. I've put the requirements in expandable widgets. The idea of the exercise is to expand each iteration when you start working on it.
 
 <details>
   <summary>Iteration 1</summary>
