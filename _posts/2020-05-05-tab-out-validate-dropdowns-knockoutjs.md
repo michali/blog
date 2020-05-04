@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trigger validation of a dropdown box when tabbing over it in KnockoutJS"
-date: 2020-05-05 08:00 +10:00
+date: 2020-05-05 08:00
 tags:
 - KnockoutJS
 excerpt: When tabbing over a dropdown box in a form, it's tougher to trigger its validations than it is with empty text boxes. Here's a trick on how to enable that.
