@@ -24,8 +24,6 @@ plugins_dir:
 - jemoji
 
 plugins: [jekyll-paginate, jekyll-seo-tag]
- 
-timezone: "Australia/Sydney"
   
 # Build settings
 # gems: [jekyll-paginate, jekyll-seo-tag]
