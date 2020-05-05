@@ -27,13 +27,13 @@ The purpose of this exercise is to practice Test-Driven Development and clean co
 
 New measures are announced by the government as the situation changes in order to allow for more economic activity. Your team gets the requirements from your product manager, begins to work on the new features and the same are released on the date the government announces that the restrictions are being relaxed.
 
-The restrictions on capital will be relaxed five times overtime.There is no large backlog to work from, instead, the requirements are decided on by the government shortly before they arrive at the bank's technology team, so product owners and developers don't know what's around the corner while the current iteration is underway. I've put the requirements in expandable widgets. The idea of the exercise is to expand each iteration when you start working on it.
+The restrictions on capital will be relaxed five times overtime.There is no large backlog to work from, instead, the requirements are decided on by the government shortly before they arrive at the bank's technology team, so product owners and developers don't know what's around the corner while the current iteration is underway. I've put the requirements in expandable widgets. The idea here is to expand each iteration when you start working on it.
 
 <details>
   <summary>Iteration 1</summary>
   <h3>Iteration 1</h3>     
   A customer can withdraw up to $60 per day from each bank account. If they have more than one account with one institution, they can withdraw $60 per day from each one of them.<br/>
-  Only domestic electronic bank transfers are permitted.
+  Only domestic electronic bank transfers are permitted (any amount).
   <ul>
     <li>
       If a customer fails to withdraw the whole daily $60 allowance, that does not "roll over" to the next day. Only up to $60 per account can be withdrawn on any day.
