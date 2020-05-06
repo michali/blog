@@ -66,6 +66,6 @@ A code snippet for xUnit is similar, with a Fact attribute instead of a Test one
 
 So you define the placeholder tokens in the Declarations part of the snippet and again you use them in the snippet body. Resharper has condensed this into just a snippet body with just the default text.
 
-Many thanks to [Roy Osherove](href="http://osherove.com") for the Resharper test Template idea which he's mentioned in some of his videos.
+Many thanks to [Roy Osherove](https://osherove.com) for the Resharper test Template idea which he's mentioned in some of his videos.
 
 **Edit:** This only took eight months. Removed some newlines in the snippet and added an access modifier.
