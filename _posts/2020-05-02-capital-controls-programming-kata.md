@@ -32,7 +32,7 @@ The restrictions on capital will be relaxed five times overtime.There is no larg
 <details>
   <summary>Iteration 1</summary>
   <h3>Iteration 1</h3>     
-  A customer can withdraw up to $60 per day from each bank account. If they have more than one account with one institution, they can withdraw $60 per day from each one of them.<br/>
+  A customer can withdraw cash up to $60 per day from each bank account. If they have more than one account with one institution, they can withdraw $60 per day from each one of them.<br/>
   Only domestic electronic bank transfers are permitted (any amount).
   <ul>
     <li>
@@ -57,7 +57,7 @@ The restrictions on capital will be relaxed five times overtime.There is no larg
   Several more months pass by and the local market has started moving again albeit not as fast as desired. The government decides to relax its restrictions on capital even more:
 <ul>
   <li>
-    Up to $500 per week is allowed to be electronically transferred abroad from an account. This is not in addition to the cash that can be withdrawn from that same account. If $420 have already left the account, no electronic transfer can take place until the withdrawal allowance is renewed next week. If $500 are transfered abroad, no cash withdrawal can take place until the limit is reset next week. There can be combinations of the two but it always has to be either $420 in cash or electronic transfers abroad summing up to $500 maximum.
+    In addition to the $420 cash withdrawal, up to $500 per week is allowed to be electronically transferred abroad from an account.
   </li>
 </ul>
 </details>
@@ -93,3 +93,6 @@ Treat each iteration like it's the last one you'll receive. If you like, try not
 Use, and think in, domain objects rather than complex primitive operations.
 
 Assume no overdraft facility for the purposes of this exercise. If the balance in an account is less or equal to the maximum withdrawal limit, only provide what is available from that account.
+
+**Update**
+Iteration 3. Up to $500 a week can be electronically transfered abroad in addition to the $420 weekly cash withdrawal limit. That makes more sense than the previous rule which was that there could be a tradeoff between the $500 transfer-abroad limit or the $420 cash withdrawal limit.
