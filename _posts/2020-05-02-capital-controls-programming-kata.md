@@ -95,4 +95,4 @@ Use, and think in, domain objects rather than complex primitive operations.
 Assume no overdraft facility for the purposes of this exercise. If the balance in an account is less or equal to the maximum withdrawal limit, only provide what is available from that account.
 
 **Update**
-Iteration 3. Up to $500 a week can be electronically transfered abroad in addition to the $420 weekly cash withdrawal limit. That makes more sense than the previous rule which was that there could be a tradeoff between the $500 transfer-abroad limit or the $420 cash withdrawal limit.
+For iteration 3, Up to $500 a week can be electronically transfered abroad in addition to the $420 weekly cash withdrawal limit. That makes more sense than the previous rule which was that there could be a tradeoff between the $500 transfer-abroad limit or the $420 cash withdrawal limit.
