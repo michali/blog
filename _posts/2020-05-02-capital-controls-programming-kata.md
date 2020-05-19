@@ -77,7 +77,7 @@ The restrictions on capital will be relaxed five times overtime.There is no larg
   Lastly, the government wants to apply this additional relaxation:
 <ul>
   <li>
-    The weekly $420 cash withdrawal limit is raised to a bi-weekly $840. No roll-overs. This does not apply to electronic transfers abroad which remain at $500 per week. Again, these electronic transfers come off the cash withdrawal allowance and vice versa.
+    The weekly $420 cash withdrawal limit is raised to a bi-weekly $840. No roll-overs. This does not apply to electronic transfers abroad which remain at $500 per week.
   </li>
 </ul>
 </details>
