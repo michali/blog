@@ -8,6 +8,8 @@ tags:
 excerpt: A walkthrough of the Capital Controls Kata in Python. Train of thought and a retrospective.
 ---
 
+In a previous article, I presented the [Capital Controls Kata](/blog/2020/05/02/capital-controls-programming-kata/) and the intent to publish a walkthrough. Here it is.
+
 ## Preparation
 I used Visual Studio Code as my code editor and unittest as the Python test framework.
 
